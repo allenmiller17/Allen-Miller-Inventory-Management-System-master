@@ -1,0 +1,56 @@
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.exe.config
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.exe
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.pdb
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csprojAssemblyReference.cache
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.MainScreen.resources
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.Properties.Resources.resources
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csproj.GenerateResource.cache
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csproj.CoreCompileInputs.cache
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.exe
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.pdb
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.PartAdd.resources
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.PartModify.resources
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.ProductAdd.resources
+C:\Users\allen\source\repos\Allen Miller Inventory Management System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.ProductModify.resources
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.exe.config
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.exe
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.pdb
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csprojAssemblyReference.cache
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.MainScreen.resources
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.PartAdd.resources
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.PartModify.resources
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.ProductAdd.resources
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.ProductModify.resources
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.Properties.Resources.resources
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csproj.GenerateResource.cache
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csproj.CoreCompileInputs.cache
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.exe
+C:\Users\allmiller\Source\Repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.pdb
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.exe.config
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.exe
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.pdb
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csprojAssemblyReference.cache
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.MainScreen.resources
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.PartAdd.resources
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.PartModify.resources
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.ProductAdd.resources
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.ProductModify.resources
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.Properties.Resources.resources
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csproj.GenerateResource.cache
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csproj.CoreCompileInputs.cache
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.exe
+C:\Users\allen\source\repos\Allen-Miller-Inventory-Management-System\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.pdb
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.exe.config
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.exe
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\bin\Debug\Allen Miller Inventory Management System.pdb
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csprojAssemblyReference.cache
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.MainScreen.resources
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.PartAdd.resources
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.PartModify.resources
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.ProductAdd.resources
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.ProductModify.resources
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\obj\Debug\Allen_Miller_Inventory_Management_System.Properties.Resources.resources
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csproj.GenerateResource.cache
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.csproj.CoreCompileInputs.cache
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.exe
+C:\Users\allmiller\Desktop\Allen-Miller-Inventory-Management-System\Allen-Miller-Inventory-Management-System-master\Allen Miller Inventory Management System\obj\Debug\Allen Miller Inventory Management System.pdb
