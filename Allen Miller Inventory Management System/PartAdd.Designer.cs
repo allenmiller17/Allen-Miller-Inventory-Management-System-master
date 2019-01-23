@@ -181,6 +181,7 @@
             // 
             this.PartAddIDTextBox.Location = new System.Drawing.Point(90, 40);
             this.PartAddIDTextBox.Name = "PartAddIDTextBox";
+            this.PartAddIDTextBox.ReadOnly = true;
             this.PartAddIDTextBox.Size = new System.Drawing.Size(100, 20);
             this.PartAddIDTextBox.TabIndex = 13;
             this.PartAddIDTextBox.TextChanged += new System.EventHandler(this.PartAddIDTextBox_TextChanged);

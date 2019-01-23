@@ -41,8 +41,8 @@ namespace Allen_Miller_Inventory_Management_System
         private void PartModifyCancelBtn_Click(object sender, EventArgs e)
         {
             this.Close();
-            MainScreen mainScreen = new MainScreen();
-            mainScreen.Show();
+            //MainScreen mainScreen = new MainScreen();
+            //mainScreen.Show();
         }
 
         private void PartModifyInHouseRadio_CheckedChanged(object sender, EventArgs e)
@@ -70,6 +70,7 @@ namespace Allen_Miller_Inventory_Management_System
 
         }
 
+        //TODO finish adding the error checking on all fields
         private void PartModifySaveBtn_Click(object sender, EventArgs e)
         {
             if (PartModifyInHouseRadio.Checked)

@@ -83,7 +83,7 @@ namespace Allen_Miller_Inventory_Management_System
 
 
         //Lookup Product
-        public Product LookupProduct(int productID)
+        public static Product LookupProduct(int productID)
         {
             foreach (Product product in Products)
             {
@@ -98,7 +98,7 @@ namespace Allen_Miller_Inventory_Management_System
 
 
         //UpdateProduct
-        public void UpdateProduct(int productID, Product updatedProduct)
+        public static void UpdateProduct(int productID, Product updatedProduct)
         {
             foreach (Product selectedProduct in Products)
             {

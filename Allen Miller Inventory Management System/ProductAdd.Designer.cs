@@ -149,6 +149,7 @@
             // 
             this.ProductAddIDBox.Location = new System.Drawing.Point(93, 40);
             this.ProductAddIDBox.Name = "ProductAddIDBox";
+            this.ProductAddIDBox.ReadOnly = true;
             this.ProductAddIDBox.Size = new System.Drawing.Size(100, 20);
             this.ProductAddIDBox.TabIndex = 10;
             // 

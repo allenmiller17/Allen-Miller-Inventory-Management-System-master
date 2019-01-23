@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.ProductModifyLabel = new System.Windows.Forms.Label();
             this.ProdModifyIDLabel = new System.Windows.Forms.Label();
             this.ProdModifyNameLabel = new System.Windows.Forms.Label();
@@ -61,135 +61,121 @@
             // 
             this.ProductModifyLabel.AutoSize = true;
             this.ProductModifyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductModifyLabel.Location = new System.Drawing.Point(9, 16);
-            this.ProductModifyLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ProductModifyLabel.Location = new System.Drawing.Point(7, 13);
             this.ProductModifyLabel.Name = "ProductModifyLabel";
-            this.ProductModifyLabel.Size = new System.Drawing.Size(121, 20);
+            this.ProductModifyLabel.Size = new System.Drawing.Size(97, 16);
             this.ProductModifyLabel.TabIndex = 0;
             this.ProductModifyLabel.Text = "Modify Product";
             // 
             // ProdModifyIDLabel
             // 
             this.ProdModifyIDLabel.AutoSize = true;
-            this.ProdModifyIDLabel.Location = new System.Drawing.Point(60, 108);
-            this.ProdModifyIDLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ProdModifyIDLabel.Location = new System.Drawing.Point(45, 88);
             this.ProdModifyIDLabel.Name = "ProdModifyIDLabel";
-            this.ProdModifyIDLabel.Size = new System.Drawing.Size(21, 17);
+            this.ProdModifyIDLabel.Size = new System.Drawing.Size(18, 13);
             this.ProdModifyIDLabel.TabIndex = 3;
             this.ProdModifyIDLabel.Text = "ID";
             // 
             // ProdModifyNameLabel
             // 
             this.ProdModifyNameLabel.AutoSize = true;
-            this.ProdModifyNameLabel.Location = new System.Drawing.Point(43, 197);
-            this.ProdModifyNameLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ProdModifyNameLabel.Location = new System.Drawing.Point(32, 160);
             this.ProdModifyNameLabel.Name = "ProdModifyNameLabel";
-            this.ProdModifyNameLabel.Size = new System.Drawing.Size(45, 17);
+            this.ProdModifyNameLabel.Size = new System.Drawing.Size(35, 13);
             this.ProdModifyNameLabel.TabIndex = 4;
             this.ProdModifyNameLabel.Text = "Name";
             // 
             // ProdModifyInventoryLabel
             // 
             this.ProdModifyInventoryLabel.AutoSize = true;
-            this.ProdModifyInventoryLabel.Location = new System.Drawing.Point(16, 404);
-            this.ProdModifyInventoryLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ProdModifyInventoryLabel.Location = new System.Drawing.Point(12, 328);
             this.ProdModifyInventoryLabel.Name = "ProdModifyInventoryLabel";
-            this.ProdModifyInventoryLabel.Size = new System.Drawing.Size(66, 17);
+            this.ProdModifyInventoryLabel.Size = new System.Drawing.Size(51, 13);
             this.ProdModifyInventoryLabel.TabIndex = 5;
             this.ProdModifyInventoryLabel.Text = "Inventory";
             // 
             // ProdModifyPriceLabel
             // 
             this.ProdModifyPriceLabel.AutoSize = true;
-            this.ProdModifyPriceLabel.Location = new System.Drawing.Point(43, 297);
-            this.ProdModifyPriceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ProdModifyPriceLabel.Location = new System.Drawing.Point(32, 241);
             this.ProdModifyPriceLabel.Name = "ProdModifyPriceLabel";
-            this.ProdModifyPriceLabel.Size = new System.Drawing.Size(40, 17);
+            this.ProdModifyPriceLabel.Size = new System.Drawing.Size(31, 13);
             this.ProdModifyPriceLabel.TabIndex = 6;
             this.ProdModifyPriceLabel.Text = "Price";
             // 
             // ProdModifyMaxLabel
             // 
             this.ProdModifyMaxLabel.AutoSize = true;
-            this.ProdModifyMaxLabel.Location = new System.Drawing.Point(48, 508);
-            this.ProdModifyMaxLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ProdModifyMaxLabel.Location = new System.Drawing.Point(36, 413);
             this.ProdModifyMaxLabel.Name = "ProdModifyMaxLabel";
-            this.ProdModifyMaxLabel.Size = new System.Drawing.Size(33, 17);
+            this.ProdModifyMaxLabel.Size = new System.Drawing.Size(27, 13);
             this.ProdModifyMaxLabel.TabIndex = 7;
             this.ProdModifyMaxLabel.Text = "Max";
             // 
             // ProdModifyMinLabel
             // 
             this.ProdModifyMinLabel.AutoSize = true;
-            this.ProdModifyMinLabel.Location = new System.Drawing.Point(284, 508);
-            this.ProdModifyMinLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ProdModifyMinLabel.Location = new System.Drawing.Point(213, 413);
             this.ProdModifyMinLabel.Name = "ProdModifyMinLabel";
-            this.ProdModifyMinLabel.Size = new System.Drawing.Size(30, 17);
+            this.ProdModifyMinLabel.Size = new System.Drawing.Size(24, 13);
             this.ProdModifyMinLabel.TabIndex = 8;
             this.ProdModifyMinLabel.Text = "Min";
             // 
             // ProdModifyMinTextBox
             // 
-            this.ProdModifyMinTextBox.Location = new System.Drawing.Point(324, 508);
-            this.ProdModifyMinTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.ProdModifyMinTextBox.Location = new System.Drawing.Point(243, 413);
             this.ProdModifyMinTextBox.Name = "ProdModifyMinTextBox";
-            this.ProdModifyMinTextBox.Size = new System.Drawing.Size(132, 22);
+            this.ProdModifyMinTextBox.Size = new System.Drawing.Size(100, 20);
             this.ProdModifyMinTextBox.TabIndex = 11;
             this.ProdModifyMinTextBox.Text = "10";
             // 
             // ProdModifyMaxTextBox
             // 
-            this.ProdModifyMaxTextBox.Location = new System.Drawing.Point(96, 508);
-            this.ProdModifyMaxTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.ProdModifyMaxTextBox.Location = new System.Drawing.Point(72, 413);
             this.ProdModifyMaxTextBox.Name = "ProdModifyMaxTextBox";
-            this.ProdModifyMaxTextBox.Size = new System.Drawing.Size(132, 22);
+            this.ProdModifyMaxTextBox.Size = new System.Drawing.Size(100, 20);
             this.ProdModifyMaxTextBox.TabIndex = 12;
             this.ProdModifyMaxTextBox.Text = "600";
             // 
             // ProdModifyPriceTextBox
             // 
-            this.ProdModifyPriceTextBox.Location = new System.Drawing.Point(96, 297);
-            this.ProdModifyPriceTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.ProdModifyPriceTextBox.Location = new System.Drawing.Point(72, 241);
             this.ProdModifyPriceTextBox.Name = "ProdModifyPriceTextBox";
-            this.ProdModifyPriceTextBox.Size = new System.Drawing.Size(132, 22);
+            this.ProdModifyPriceTextBox.Size = new System.Drawing.Size(100, 20);
             this.ProdModifyPriceTextBox.TabIndex = 13;
             this.ProdModifyPriceTextBox.Text = "30";
             // 
             // ProdModifyInventoryTextBox
             // 
-            this.ProdModifyInventoryTextBox.Location = new System.Drawing.Point(96, 404);
-            this.ProdModifyInventoryTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.ProdModifyInventoryTextBox.Location = new System.Drawing.Point(72, 328);
             this.ProdModifyInventoryTextBox.Name = "ProdModifyInventoryTextBox";
-            this.ProdModifyInventoryTextBox.Size = new System.Drawing.Size(132, 22);
+            this.ProdModifyInventoryTextBox.Size = new System.Drawing.Size(100, 20);
             this.ProdModifyInventoryTextBox.TabIndex = 14;
             this.ProdModifyInventoryTextBox.Text = "500";
             // 
             // ProdModifyNameTextBox
             // 
-            this.ProdModifyNameTextBox.Location = new System.Drawing.Point(96, 197);
-            this.ProdModifyNameTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.ProdModifyNameTextBox.Location = new System.Drawing.Point(72, 160);
             this.ProdModifyNameTextBox.Name = "ProdModifyNameTextBox";
-            this.ProdModifyNameTextBox.Size = new System.Drawing.Size(132, 22);
+            this.ProdModifyNameTextBox.Size = new System.Drawing.Size(100, 20);
             this.ProdModifyNameTextBox.TabIndex = 15;
             this.ProdModifyNameTextBox.Text = "New Product 7";
             // 
             // ProdModifyIDTextBox
             // 
-            this.ProdModifyIDTextBox.Location = new System.Drawing.Point(96, 108);
-            this.ProdModifyIDTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.ProdModifyIDTextBox.Location = new System.Drawing.Point(72, 88);
             this.ProdModifyIDTextBox.Name = "ProdModifyIDTextBox";
             this.ProdModifyIDTextBox.ReadOnly = true;
-            this.ProdModifyIDTextBox.Size = new System.Drawing.Size(132, 22);
+            this.ProdModifyIDTextBox.Size = new System.Drawing.Size(100, 20);
             this.ProdModifyIDTextBox.TabIndex = 16;
             this.ProdModifyIDTextBox.Text = "7";
             // 
             // ProdModifySaveBtn
             // 
             this.ProdModifySaveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ProdModifySaveBtn.Location = new System.Drawing.Point(39, 633);
-            this.ProdModifySaveBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.ProdModifySaveBtn.Location = new System.Drawing.Point(29, 514);
             this.ProdModifySaveBtn.Name = "ProdModifySaveBtn";
-            this.ProdModifySaveBtn.Size = new System.Drawing.Size(100, 28);
+            this.ProdModifySaveBtn.Size = new System.Drawing.Size(75, 23);
             this.ProdModifySaveBtn.TabIndex = 17;
             this.ProdModifySaveBtn.Text = "Save";
             this.ProdModifySaveBtn.UseVisualStyleBackColor = true;
@@ -198,10 +184,9 @@
             // ProdModifyCancelBtn
             // 
             this.ProdModifyCancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ProdModifyCancelBtn.Location = new System.Drawing.Point(147, 633);
-            this.ProdModifyCancelBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.ProdModifyCancelBtn.Location = new System.Drawing.Point(110, 514);
             this.ProdModifyCancelBtn.Name = "ProdModifyCancelBtn";
-            this.ProdModifyCancelBtn.Size = new System.Drawing.Size(100, 28);
+            this.ProdModifyCancelBtn.Size = new System.Drawing.Size(75, 23);
             this.ProdModifyCancelBtn.TabIndex = 18;
             this.ProdModifyCancelBtn.Text = "Cancel";
             this.ProdModifyCancelBtn.UseVisualStyleBackColor = true;
@@ -214,20 +199,19 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dataGridView1.GridColor = System.Drawing.Color.Azure;
-            this.dataGridView1.Location = new System.Drawing.Point(596, 49);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView1.Location = new System.Drawing.Point(447, 40);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.Size = new System.Drawing.Size(671, 257);
+            this.dataGridView1.Size = new System.Drawing.Size(503, 209);
             this.dataGridView1.TabIndex = 19;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -238,39 +222,36 @@
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView2.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dataGridView2.GridColor = System.Drawing.Color.Azure;
-            this.dataGridView2.Location = new System.Drawing.Point(596, 368);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView2.Location = new System.Drawing.Point(447, 299);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView2.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.dataGridView2.RowHeadersVisible = false;
-            this.dataGridView2.Size = new System.Drawing.Size(671, 257);
+            this.dataGridView2.Size = new System.Drawing.Size(503, 209);
             this.dataGridView2.TabIndex = 20;
             this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
             // SearchBox
             // 
-            this.SearchBox.Location = new System.Drawing.Point(1028, 17);
-            this.SearchBox.Margin = new System.Windows.Forms.Padding(4);
+            this.SearchBox.Location = new System.Drawing.Point(771, 14);
             this.SearchBox.Name = "SearchBox";
-            this.SearchBox.Size = new System.Drawing.Size(237, 22);
+            this.SearchBox.Size = new System.Drawing.Size(179, 20);
             this.SearchBox.TabIndex = 21;
             this.SearchBox.TextChanged += new System.EventHandler(this.SearchBox_TextChanged);
             // 
             // SearchButton
             // 
             this.SearchButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SearchButton.Location = new System.Drawing.Point(920, 15);
-            this.SearchButton.Margin = new System.Windows.Forms.Padding(4);
+            this.SearchButton.Location = new System.Drawing.Point(690, 12);
             this.SearchButton.Name = "SearchButton";
-            this.SearchButton.Size = new System.Drawing.Size(100, 28);
+            this.SearchButton.Size = new System.Drawing.Size(75, 23);
             this.SearchButton.TabIndex = 22;
             this.SearchButton.Text = "Search";
             this.SearchButton.UseVisualStyleBackColor = true;
@@ -279,10 +260,9 @@
             // DeleteButton
             // 
             this.DeleteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DeleteButton.Location = new System.Drawing.Point(1167, 633);
-            this.DeleteButton.Margin = new System.Windows.Forms.Padding(4);
+            this.DeleteButton.Location = new System.Drawing.Point(875, 514);
             this.DeleteButton.Name = "DeleteButton";
-            this.DeleteButton.Size = new System.Drawing.Size(100, 28);
+            this.DeleteButton.Size = new System.Drawing.Size(75, 23);
             this.DeleteButton.TabIndex = 23;
             this.DeleteButton.Text = "Delete";
             this.DeleteButton.UseVisualStyleBackColor = true;
@@ -291,10 +271,9 @@
             // AddButton
             // 
             this.AddButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.AddButton.Location = new System.Drawing.Point(1167, 314);
-            this.AddButton.Margin = new System.Windows.Forms.Padding(4);
+            this.AddButton.Location = new System.Drawing.Point(875, 255);
             this.AddButton.Name = "AddButton";
-            this.AddButton.Size = new System.Drawing.Size(100, 28);
+            this.AddButton.Size = new System.Drawing.Size(75, 23);
             this.AddButton.TabIndex = 24;
             this.AddButton.Text = "Add";
             this.AddButton.UseVisualStyleBackColor = true;
@@ -303,28 +282,26 @@
             // AllPartsLabel
             // 
             this.AllPartsLabel.AutoSize = true;
-            this.AllPartsLabel.Location = new System.Drawing.Point(592, 27);
-            this.AllPartsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.AllPartsLabel.Location = new System.Drawing.Point(444, 22);
             this.AllPartsLabel.Name = "AllPartsLabel";
-            this.AllPartsLabel.Size = new System.Drawing.Size(60, 17);
+            this.AllPartsLabel.Size = new System.Drawing.Size(45, 13);
             this.AllPartsLabel.TabIndex = 25;
             this.AllPartsLabel.Text = "All Parts";
             // 
             // AssociatedPartsLabel
             // 
             this.AssociatedPartsLabel.AutoSize = true;
-            this.AssociatedPartsLabel.Location = new System.Drawing.Point(592, 348);
-            this.AssociatedPartsLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.AssociatedPartsLabel.Location = new System.Drawing.Point(444, 283);
             this.AssociatedPartsLabel.Name = "AssociatedPartsLabel";
-            this.AssociatedPartsLabel.Size = new System.Drawing.Size(230, 17);
+            this.AssociatedPartsLabel.Size = new System.Drawing.Size(174, 13);
             this.AssociatedPartsLabel.TabIndex = 26;
             this.AssociatedPartsLabel.Text = "Parts Associated With This Product";
             // 
             // ProductModify
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1313, 686);
+            this.ClientSize = new System.Drawing.Size(985, 557);
             this.Controls.Add(this.AssociatedPartsLabel);
             this.Controls.Add(this.AllPartsLabel);
             this.Controls.Add(this.AddButton);
@@ -348,7 +325,6 @@
             this.Controls.Add(this.ProdModifyNameLabel);
             this.Controls.Add(this.ProdModifyIDLabel);
             this.Controls.Add(this.ProductModifyLabel);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ProductModify";
             this.Text = "ProductModify";
             this.Load += new System.EventHandler(this.ProductModify_Load);
