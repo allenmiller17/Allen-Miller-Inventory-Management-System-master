@@ -100,7 +100,6 @@ namespace Allen_Miller_Inventory_Management_System
             }
         }
 
-
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -215,12 +214,44 @@ namespace Allen_Miller_Inventory_Management_System
 
         private void SearchButton_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrWhiteSpace(SearchBox.Text))
+            {
+                MessageBox.Show("A number is required to search for a part!");
+                return;
+            }
+            else if (System.Text.RegularExpressions.Regex.IsMatch(SearchBox.Text, "[^0-9]"))
+            {
+                MessageBox.Show("Number is required to search for a part!");
+                SearchBox.Text = SearchBox.Text.Remove(SearchBox.Text.Length - 1);
+                return;
+            }
+            int searchBoxText = int.Parse(SearchBox.Text);
+            Part find = Inventory.LookupPart(searchBoxText);
+            foreach (DataGridViewRow row in dataGridView1.Rows)
+            {
+                Part foundPart = (Part)row.DataBoundItem;
 
+                if (find == null)
+                {
+                    MessageBox.Show("No part found. Please try again!");
+                    return;
+                }
+                else if (foundPart.PartID == find.PartID)
+                {
+                    row.Selected = true;
+                    break;
+                }
+                else
+                {
+                    row.Selected = false;
+                }
+            }
         }
 
         private void SearchBox_TextChanged(object sender, EventArgs e)
         {
-
+            //(dataGridView1.DataSource as DataTable).DefaultView.RowFilter = string.Format("Name LIKE '%{0}%'", SearchBox.Text);
+            
         }
 
         private void AddButton_Click(object sender, EventArgs e)
@@ -250,7 +281,6 @@ namespace Allen_Miller_Inventory_Management_System
             }
 
         }
-
     }
 }
 

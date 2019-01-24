@@ -53,7 +53,6 @@ namespace Allen_Miller_Inventory_Management_System
             tempProduct6.AssociatedParts.Add(tempPart6);
 
         }
-        
 
         //Add Product
         public void AddProduct(Product product)
@@ -81,8 +80,7 @@ namespace Allen_Miller_Inventory_Management_System
             return finished;
         }
 
-
-        //Lookup Product
+        //Lookup Part
         public static Product LookupProduct(int productID)
         {
             foreach (Product product in Products)
@@ -95,7 +93,6 @@ namespace Allen_Miller_Inventory_Management_System
             Product emptyProduct = new Allen_Miller_Inventory_Management_System.Product();
             return emptyProduct;
         }
-
 
         //UpdateProduct
         public static void UpdateProduct(int productID, Product updatedProduct)
@@ -115,19 +112,17 @@ namespace Allen_Miller_Inventory_Management_System
             }
         }
 
-
         //Add Part
         public static void AddPart(Part part)
         {
             AllParts.Add(part);
         }
 
-
         //Delete Part
         //TODO Finish Delete Part
 
         //Lookup Part
-        public Part LookupPart(int partID)
+        public static Part LookupPart(int? partID)
         {
             foreach (Part part in AllParts)
             {
@@ -136,10 +131,9 @@ namespace Allen_Miller_Inventory_Management_System
                     return part;
                 }
             }
-            Part emptyPart = null;
-            return emptyPart;
+            Part noPart = null;
+            return noPart;
         }
-
 
         //Update Part
         public static void InHouseModify(int partID, InHouse updatedPart)
