@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupParts = new System.Windows.Forms.GroupBox();
             this.partsDeleteBtn = new System.Windows.Forms.Button();
             this.partsModifyBtn = new System.Windows.Forms.Button();
@@ -117,14 +115,6 @@
             this.partsDataGridView.BackgroundColor = System.Drawing.Color.Azure;
             this.partsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.partsDataGridView.Cursor = System.Windows.Forms.Cursors.Default;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.partsDataGridView.DefaultCellStyle = dataGridViewCellStyle1;
             this.partsDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.partsDataGridView.Location = new System.Drawing.Point(7, 66);
             this.partsDataGridView.Name = "partsDataGridView";
@@ -135,12 +125,13 @@
             // 
             // partsSearchBtn
             // 
-            this.partsSearchBtn.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.partsSearchBtn.AccessibleRole = System.Windows.Forms.AccessibleRole.MenuBar;
+            this.partsSearchBtn.BackColor = System.Drawing.SystemColors.Control;
             this.partsSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.partsSearchBtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.partsSearchBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.partsSearchBtn.Location = new System.Drawing.Point(7, 34);
             this.partsSearchBtn.Name = "partsSearchBtn";
-            this.partsSearchBtn.Size = new System.Drawing.Size(100, 25);
+            this.partsSearchBtn.Size = new System.Drawing.Size(75, 23);
             this.partsSearchBtn.TabIndex = 1;
             this.partsSearchBtn.Text = "Search";
             this.partsSearchBtn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -149,12 +140,15 @@
             // 
             // partsSearchBox
             // 
-            this.partsSearchBox.Location = new System.Drawing.Point(113, 35);
-            this.partsSearchBox.Multiline = true;
+            this.partsSearchBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.partsSearchBox.Location = new System.Drawing.Point(88, 34);
             this.partsSearchBox.Name = "partsSearchBox";
-            this.partsSearchBox.Size = new System.Drawing.Size(160, 25);
+            this.partsSearchBox.Size = new System.Drawing.Size(179, 20);
             this.partsSearchBox.TabIndex = 0;
+            this.partsSearchBox.Text = "Search by part ID";
+            this.partsSearchBox.Click += new System.EventHandler(this.SearchBox_Enter);
             this.partsSearchBox.TextChanged += new System.EventHandler(this.PartsSearchBox_TextChanged);
+            this.partsSearchBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.partsSearchBox_KeyDown);
             // 
             // groupProducts
             // 
@@ -220,14 +214,6 @@
             this.productsDataGridView.BackgroundColor = System.Drawing.Color.Azure;
             this.productsDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.productsDataGridView.Cursor = System.Windows.Forms.Cursors.Default;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.productsDataGridView.DefaultCellStyle = dataGridViewCellStyle2;
             this.productsDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.productsDataGridView.Location = new System.Drawing.Point(8, 66);
             this.productsDataGridView.Name = "productsDataGridView";
@@ -238,13 +224,13 @@
             // 
             // productSearchBtn
             // 
-            this.productSearchBtn.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.productSearchBtn.BackColor = System.Drawing.SystemColors.Control;
             this.productSearchBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.productSearchBtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.productSearchBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.productSearchBtn.Location = new System.Drawing.Point(8, 35);
             this.productSearchBtn.Margin = new System.Windows.Forms.Padding(4);
             this.productSearchBtn.Name = "productSearchBtn";
-            this.productSearchBtn.Size = new System.Drawing.Size(100, 25);
+            this.productSearchBtn.Size = new System.Drawing.Size(75, 23);
             this.productSearchBtn.TabIndex = 1;
             this.productSearchBtn.Text = "Search";
             this.productSearchBtn.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -254,13 +240,16 @@
             // productSearchBox
             // 
             this.productSearchBox.Cursor = System.Windows.Forms.Cursors.Default;
-            this.productSearchBox.Location = new System.Drawing.Point(116, 34);
+            this.productSearchBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.productSearchBox.Location = new System.Drawing.Point(91, 35);
             this.productSearchBox.Margin = new System.Windows.Forms.Padding(4);
-            this.productSearchBox.Multiline = true;
             this.productSearchBox.Name = "productSearchBox";
-            this.productSearchBox.Size = new System.Drawing.Size(160, 25);
+            this.productSearchBox.Size = new System.Drawing.Size(179, 20);
             this.productSearchBox.TabIndex = 0;
+            this.productSearchBox.Text = "Search by product ID";
+            this.productSearchBox.Click += new System.EventHandler(this.SearchBox_Enter);
             this.productSearchBox.TextChanged += new System.EventHandler(this.ProductSearchBox_TextChanged);
+            this.productSearchBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.productSearchBox_KeyDown);
             // 
             // inventoryMS
             // 
@@ -269,7 +258,7 @@
             this.inventoryMS.Location = new System.Drawing.Point(0, 0);
             this.inventoryMS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.inventoryMS.Name = "inventoryMS";
-            this.inventoryMS.Size = new System.Drawing.Size(624, 52);
+            this.inventoryMS.Size = new System.Drawing.Size(496, 41);
             this.inventoryMS.TabIndex = 2;
             this.inventoryMS.Text = "Inventory Management System";
             // 
@@ -288,7 +277,7 @@
             // 
             // MainScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.exitBtn);

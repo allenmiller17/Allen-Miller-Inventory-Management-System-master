@@ -208,7 +208,6 @@ namespace Allen_Miller_Inventory_Management_System
             Inventory.UpdateProduct(prodModifyIDText, updatedProduct);
 
             this.Close();
-            MainScreenForm.LoadMainScreen();
             MainScreenForm.productsDataGridView.Refresh();
         }
 
@@ -280,6 +279,21 @@ namespace Allen_Miller_Inventory_Management_System
                 }
             }
 
+        }
+
+        private void SearchBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                SearchButton.PerformClick();
+                e.SuppressKeyPress = true;
+                e.Handled = true;
+            }
+        }
+
+        private void SearchBox_Enter(object sender, EventArgs e)
+        {
+            ((TextBox)sender).SelectAll();
         }
     }
 }

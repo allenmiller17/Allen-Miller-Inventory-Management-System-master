@@ -270,8 +270,12 @@
         private System.Windows.Forms.Label PartAddMinLabel;
         private System.Windows.Forms.Label PartAddMachineNameLabel;
         private System.Windows.Forms.Label PartAddLabel;
+
+
         private System.Windows.Forms.RadioButton PartAddInHouseRadio;
         private System.Windows.Forms.RadioButton PartAddOutsourcedRadio;
+
+
         private System.Windows.Forms.TextBox PartAddMinTextBox;
         private System.Windows.Forms.TextBox PartAddIDTextBox;
         private System.Windows.Forms.TextBox PartAddNameTextBox;
