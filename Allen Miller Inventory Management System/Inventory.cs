@@ -17,12 +17,12 @@ namespace Allen_Miller_Inventory_Management_System
         public static void CreateList()
         {
             //Fix Price Conversion
-            Product tempProduct1 = new Product(1, "Fake Product 1", 200.00m, 50, 500, 10);
-            Product tempProduct2 = new Product(2, "Fake Product 2", 300.00m, 60, 600, 20);
-            Product tempProduct3 = new Product(3, "Fake Product 3", 400.00m, 70, 700, 30);
-            Product tempProduct4 = new Product(4, "Fake Product 4", 500.00m, 80, 800, 40);
-            Product tempProduct5 = new Product(5, "Fake Product 5", 600.00m, 90, 900, 50);
-            Product tempProduct6 = new Product(6, "Fake Product 6", 700.00m, 100, 1000, 60);
+            Product tempProduct1 = new Product(1, "Bike", 200.00m, 50, 500, 10);
+            Product tempProduct2 = new Product(2, "Scooter", 300.00m, 60, 600, 20);
+            Product tempProduct3 = new Product(3, "Skateboard", 400.00m, 70, 700, 30);
+            Product tempProduct4 = new Product(4, "Trike", 500.00m, 80, 800, 40);
+            Product tempProduct5 = new Product(5, "Unicycle", 600.00m, 90, 900, 50);
+            Product tempProduct6 = new Product(6, "Roller Skates", 700.00m, 100, 1000, 60);
 
             Products.Add(tempProduct1);
             Products.Add(tempProduct2);
@@ -31,12 +31,12 @@ namespace Allen_Miller_Inventory_Management_System
             Products.Add(tempProduct5);
             Products.Add(tempProduct6);
 
-            Part tempPart1 = new InHouse(1, "Fake Part 1", 100.00m, 10, 200, 50, 101);
-            Part tempPart2 = new InHouse(2, "Fake Part 2", 300.00m, 20, 300, 50, 102);
-            Part tempPart3 = new InHouse(3, "Fake Part 3", 200.00m, 30, 400, 50, 103);
-            Part tempPart4 = new Outsourced(4, "Fake Part 4", 400.00m, 40, 500, 60, "Some Company");
-            Part tempPart5 = new Outsourced(5, "Fake Part 5", 700.00m, 45, 10, 10, "Some Company");
-            Part tempPart6 = new Outsourced(6, "Fake Part 6", 200.00m, 600, 150, 60, "Some Company");
+            Part tempPart1 = new InHouse(1, "Skate Wheel", 100.00m, 10, 200, 50, 101);
+            Part tempPart2 = new InHouse(2, "Board", 300.00m, 20, 300, 50, 102);
+            Part tempPart3 = new InHouse(3, "Seat", 200.00m, 30, 400, 50, 103);
+            Part tempPart4 = new Outsourced(4, "Tire", 400.00m, 40, 500, 60, "Some Company");
+            Part tempPart5 = new Outsourced(5, "Frame", 700.00m, 45, 10, 10, "Some Company");
+            Part tempPart6 = new Outsourced(6, "Greese", 200.00m, 60, 150, 60, "Some Company");
 
             AllParts.Add(tempPart1);
             AllParts.Add(tempPart2);
@@ -119,7 +119,18 @@ namespace Allen_Miller_Inventory_Management_System
         }
 
         //Delete Part
-        //TODO Finish Delete Part
+        public bool DeletePart(Part part)
+        {
+            try
+            {
+                AllParts.Remove(part);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
 
         //Lookup Part
         public static Part LookupPart(int? partID)

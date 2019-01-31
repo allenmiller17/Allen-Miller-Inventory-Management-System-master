@@ -260,12 +260,12 @@ namespace Allen_Miller_Inventory_Management_System
             }
         }
 
-        private void groupParts_Enter(object sender, EventArgs e)
+        private void GroupParts_Enter(object sender, EventArgs e)
         {
 
         }
 
-        private void partsSearchBox_KeyDown(object sender, KeyEventArgs e)
+        private void PartsSearchBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
@@ -289,7 +289,6 @@ namespace Allen_Miller_Inventory_Management_System
         {
             ((TextBox)sender).SelectAll();
         }
-
 
     }
 }

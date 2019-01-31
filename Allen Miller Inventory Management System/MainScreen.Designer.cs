@@ -67,7 +67,7 @@
             this.groupParts.TabIndex = 0;
             this.groupParts.TabStop = false;
             this.groupParts.Text = "Parts";
-            this.groupParts.Enter += new System.EventHandler(this.groupParts_Enter);
+            this.groupParts.Enter += new System.EventHandler(this.GroupParts_Enter);
             // 
             // partsDeleteBtn
             // 
@@ -148,7 +148,7 @@
             this.partsSearchBox.Text = "Search by part ID";
             this.partsSearchBox.Click += new System.EventHandler(this.SearchBox_Enter);
             this.partsSearchBox.TextChanged += new System.EventHandler(this.PartsSearchBox_TextChanged);
-            this.partsSearchBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.partsSearchBox_KeyDown);
+            this.partsSearchBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PartsSearchBox_KeyDown);
             // 
             // groupProducts
             // 
